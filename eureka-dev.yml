@@ -9,4 +9,4 @@ eureka:
     registerWithEureka: false #是否将自己注册到eurek的服务中。此处是服务端，无须注册自己
     fetchRegistry: false #是否从eureka中获取注册信息。此处是服务端不用调用其他的微服务，所以无须获取注册信息
   service: #eureka客户端和服务端交互的地址，服务端要配置，客户端也要配置。
-    defaultZone: http://127.0.0.1:${server.port}/eureka/
+    defaultZone: http://39.107.111.9:${server.port}/eureka/
