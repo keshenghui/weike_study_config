@@ -1,0 +1,13 @@
+server:
+  port: 6601
+spring:
+  application:
+    name: weike-study-user #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/admin_auth?characterEncoding=UTF8
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
