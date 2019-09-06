@@ -5,7 +5,7 @@ spring:
     name: weike-study-user #指定服务名
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/admin_auth?characterEncoding=UTF8
+    url: jdbc:mysql://39.107.111.9:3306/admin_auth?characterEncoding=UTF8
     username: root
     password: root
   jpa:
@@ -14,6 +14,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:6866/eureka/
+      defaultZone: http://39.107.111.9:6866/eureka/
   instance:
       prefer-ip-address: true    
