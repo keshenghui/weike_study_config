@@ -1,6 +1,6 @@
 # 注册中心
 server:
-  port: 6666   #eureka的端口号，它区别于其他微服务，它不提供微服务的业务功能
+  port: 6866   #eureka的端口号，它区别于其他微服务，它不提供微服务的业务功能
 spring:
   application:
     name: weike-study-eureka
