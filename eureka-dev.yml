@@ -1,0 +1,12 @@
+# 注册中心
+server:
+  port: 6666   #eureka的端口号，它区别于其他微服务，它不提供微服务的业务功能
+spring:
+  application:
+    name: weike-study-eureka
+eureka:
+  client:
+    registerWithEureka: false #是否将自己注册到eurek的服务中。此处是服务端，无须注册自己
+    fetchRegistry: false #是否从eureka中获取注册信息。此处是服务端不用调用其他的微服务，所以无须获取注册信息
+  service: #eureka客户端和服务端交互的地址，服务端要配置，客户端也要配置。
+    defaultZone: http://127.0.0.1:${server.port}/eureka/
