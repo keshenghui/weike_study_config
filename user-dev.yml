@@ -5,7 +5,7 @@ spring:
     name: weike-study-user #指定服务名
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://39.107.111.9:3306/admin_auth?characterEncoding=UTF8
+    url: jdbc:mysql://39.107.111.9:33306/admin_auth?characterEncoding=UTF8
     username: root
     password: root
   jpa:
